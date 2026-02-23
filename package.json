@@ -1,1 +1,22 @@
-{\n  "name": "minecraft-bot",\n  "version": "1.0.0",\n  "description": "A Minecraft bot with Discord integration, Aiven PostgreSQL, and Render deployment.",\n  "main": "index.js",\n  "scripts": {\n    "start": "node index.js"\n  },\n  "dependencies": {\n    "discord.js": "^14.0.0",\n    "pg": "^8.0.0",\n    "pg-hstore": "^2.3.4"\n  },\n  "engines": {\n    "node": ">=16.0.0"\n  }\n}
+{
+  "name": "nexon",
+  "version": "1.0.0",
+  "description": "A comprehensive Minecraft 1.20.x anticheat and automation bot for Spigot/Paper servers with Discord integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "pg": "^8.11.0",
+    "dotenv": "^16.0.0",
+    "mineflayer": "^4.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
