@@ -4,6 +4,8 @@ node_modules/
 # Environment variables
 .env
 
-# Common files
+# macOS file
 .DS_Store
+
+# Windows thumbnail cache
 Thumbs.db
